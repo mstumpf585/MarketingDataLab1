@@ -261,7 +261,7 @@
 1.0 : 23.414634146341466
 
 
-## Bar Charts in another file
+## Bar Charts can be found in DataLabDeliverables
 # Question 2 
 ## Age Stats 
 Average age :68.64285714285714
@@ -272,7 +272,7 @@ Std Dev age: 11.872912338828638
 
 ## thoughts on std dev 
 # Question 3
-Not really sure how to make this histogram do you want it all in one file? 
+Not really sure how to make this histogram do you want it all in one file? You can find them in DataLabDeliverablesI made two one with just age count and then with all 3 in the histogram 
 # Question 4
 ## Service variables
 Used weight = 74

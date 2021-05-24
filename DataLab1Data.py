@@ -30,7 +30,7 @@ for column in data:
         print("\n")
         f.write("\n")
 
-f.write("## Bar Charts in another file\n")
+f.write("## Bar Charts can be found in DataLabDeliverables\n")
 
 # Question 2 ########################################
 f.write("# Question 2 \n")
@@ -43,7 +43,8 @@ f.write("## thoughts on std dev \n")
 
 # Question 3 ########################################
 f.write("# Question 3\n")
-f.write("Not really sure how to make this histogram do you want it all in one file? \n")
+f.write("Not really sure how to make this histogram do you want it all in one file? You can find them in DataLabDeliverables"
++ "I made two one with just age count and then with all 3 in the histogram \n")
 
 
 # Question 4 ########################################
@@ -71,6 +72,8 @@ f.write("Doctor recommendation " + str(infoDoc) + "\n\n")
 f.write("Friend recommendation " + str(infoFriend) + "\n\n")
 f.write("Advertisement " + str(infoAd) + "\n\n")
 f.write("Speaker " + str(infoSpeaker) + "\n\n")
+
+# Question 5 ############################################
 
 
 
