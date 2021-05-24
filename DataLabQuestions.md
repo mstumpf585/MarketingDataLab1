@@ -274,7 +274,8 @@ Std Dev age: 11.872912338828638
 # Question 3
 Not really sure how to make this histogram do you want it all in one file? 
 # Question 4
-## Service variablesUsed weight = 74
+## Service variables
+Used weight = 74
 
 Used classes = 61
 

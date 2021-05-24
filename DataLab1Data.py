@@ -54,7 +54,7 @@ usedStation = (data["station"] == 1).sum()
 usedPool = (data["pool"] == 1).sum()
 
 f.write("# Question 4\n")
-f.write("## Service variables \n")
+f.write("## Service variables\n")
 f.write("Used weight = " + str(usedWeight) + "\n\n")
 f.write("Used classes = " + str(usedClasses) + "\n\n")
 f.write("Used circuit = " + str(usedCircuit) + "\n\n")
