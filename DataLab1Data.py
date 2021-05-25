@@ -74,7 +74,26 @@ f.write("Advertisement " + str(infoAd) + "\n\n")
 f.write("Speaker " + str(infoSpeaker) + "\n\n")
 
 # Question 5 ############################################
+f.write("## Number of Visits and Likely to Recommend\n\n")
+f.write("### Visits\n\n")
+f.write("Average Number of Visits " + str(data["visits"].mean()) + "\n\n")
+f.write("Standard Error for Visits " + str(data["visits"].std()) + "\n\n")
+f.write("### Likely to recommend \n\n")
+f.write("Average Number of Likely to recommend " + str(data["recom"].mean()) + "\n\n")
+f.write("Standard Error for Likely to recommend " + str(data["recom"].std()) + "\n\n")
 
+# Question 6 ############################################
+from scipy.stats import ttest_1samp
+import numpy as np 
 
+visits = data["visits"]
+visitsMean = visits.mean()
+tset, pval = ttest_1samp(visits.to_numpy(), 20, nan_policy='omit')
 
+f.write("P-value for t test \n\n" + str(pval))
+lowerThanPoint5 = pval < .05
+f.write("P-value < .05 \n\n" + str(lowerThanPoint5))
+f.write("### Thoughts on Hypothesis test: \n\n")
+
+# Question 7 #########################################
 

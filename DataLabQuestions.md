@@ -270,9 +270,13 @@ Median age: 70.0
 
 Std Dev age: 11.872912338828638
 
-## thoughts on std dev 
+## Thoughts on std dev 
+Average age and the median are pretty close. Std dev indicates that the variance is low thus indicating the average is reliable. 
+
 # Question 3
-Not really sure how to make this histogram do you want it all in one file? You can find them in DataLabDeliverablesI made two one with just age count and then with all 3 in the histogram 
+Not really sure how to make this histogram do you want it all in one file? You can find them in DataLabDeliverables I made two one with just age count and then with all 3 in the histogram. The 
+histogram supports the age profile in question 2. There is a 15-19 outlier for age. 
+
 # Question 4
 ## Service variables
 Used weight = 74
@@ -285,6 +289,9 @@ Used station = 28
 
 Used pool = 104
 
+### Least and most important 
+Least important variable is Used station because it saw the least use. Most important is Pool.
+
 ## Info source variables 
 Doctor recommendation 54
 
@@ -294,3 +301,39 @@ Advertisement 14
 
 Speaker 28
 
+### Least and most important
+Advertisement is least important. Friend word of mouth is most important. 
+
+# Question 5 
+
+## Number of Visits and Likely to Recommend
+
+### Visits
+
+Average Number of Visits 9.969696969696969
+
+Standard Error for Visits 7.255950885856402
+
+### Thoughts on std dev 
+Standard error is low indicating a reliable average number of visits. 
+
+### Likely to recommend 
+
+Average Number of Likely to recommend 9.294372294372295
+
+Standard Error for Likely to recommend 1.5064826352664995
+
+### Thoughts on std dev 
+again the average is pretty reliable due to the low std err.
+
+# Question 6
+### SCIPY to test tes if the mean is 20 
+P-value for t test 9.884355475438688e-48P-value < .05 True
+
+since the p-value is less than .05 we reject the null hypothesis mean is not equal to 20. 
+
+# Question 7 
+Said we didn't need to do this one 
+
+# Question 8 
+said we didn't need to do this one
